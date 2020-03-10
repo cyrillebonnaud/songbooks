@@ -1,0 +1,56 @@
+content:
+
+book:
+  lang: en
+  encoding: utf-8
+  pictures: no
+  template: default.tex
+  onesongperpage: no
+
+chords: # Options relatives aux accords
+  show: yes
+  diagramreminder: all
+  diagrampage: all
+  repeatchords: yes
+  lilypond: no
+  tablatures: no
+  instrument: ukulele
+  notation: alphascale
+
+authors: # Comment sont analysés les auteurs
+  separators:
+  - and
+  ignore:
+  - unknown
+  after:
+  - by
+
+titles: # Comment sont analysés les titres
+  prefix:
+  - The
+  - Le
+  - La
+  - "L'"
+  - A
+  - Au
+  - Ces
+  - De
+  - Des
+  - El
+  - Les
+  - Ma
+  - Mon
+  - Un
+
+template:
+  default.tex:
+    title: "Songbook de Cyrille"
+    author: "Cyrille Bonnaud"
+  patacrep.tex:
+    color:
+      songlink: FF0000
+      hyperlink: 0000FF
+    bgcolor:
+      note: 96bee3
+      songnumber: AED1E4
+      index: E4AED1
