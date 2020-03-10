@@ -1,17 +1,16 @@
-content:
-
 book:
   lang: en
   encoding: utf-8
   pictures: no
   template: default.tex
   onesongperpage: no
+  datadir: ".."
 
 chords: # Options relatives aux accords
   show: yes
   diagramreminder: all
   diagrampage: all
-  repeatchords: yes
+  repeatchords: no
   lilypond: no
   tablatures: no
   instrument: ukulele
